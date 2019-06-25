@@ -1,6 +1,6 @@
 import sys
 yer=int(input())
 if yer%400==0 or (yer%4==0 and yer%100!=0):
- print('Yes')
+ print('yes')
 else:
- print('No')
+ print('no')
